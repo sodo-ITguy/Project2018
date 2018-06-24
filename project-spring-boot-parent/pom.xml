@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <parent>
+	  <groupId>com.itsod</groupId>
+	  <artifactId>project-parent</artifactId>
+ 	  <version>1.0-SNAPSHOT</version>
+	  <relativePath>../project-parent</relativePath>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.itsod</groupId>
+  <artifactId>project-spring-boot-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>project-spring-boot-parent</name>
+
+  <build><pluginManagement><plugins></plugins></pluginManagement></build>
+  <dependencyManagement><dependencies></dependencies></dependencyManagement>
+  <dependencies></dependencies>
+</project>
